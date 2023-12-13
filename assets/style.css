@@ -8,7 +8,7 @@ a{
 
 /* utility */
 .bg-color-1{
-    background-color: #2b3d4f ;
+    background-color: #2b3d4f;
 }
 
 .bg-color-2{
@@ -31,6 +31,21 @@ a{
     width: 100px;
 }
 
+/* NAVBAR */
+.navbar {
+    --bs-navbar-padding-y: 1.5rem;
+    --bs-navbar-toggler-border-color: white;
+}
+
+.nav-personalized{
+    width: 75%;
+    }
+
+.bg-body-tertiary {
+    background-color: #2b3d4f !important ;
+}
+
+
 /* HERO SECTION */
 .hero figure img{
     width: 250px;
@@ -48,11 +63,11 @@ a{
     padding-inline: 10px;
 }
 
-/* CONTACT */
+
 
 
 /****** MEDIA ******/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991.98px) {
     .about p{
         font-size: 25px;
         margin: 20px auto;
@@ -62,4 +77,9 @@ a{
     .contact-us h2{
         font-size: 45px;
     }
+
+    .nav-personalized{
+        width: 95%;
+        }
 }
+
