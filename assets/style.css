@@ -6,6 +6,7 @@ a{
     text-decoration: none;
 }
 
+/* utility */
 .bg-color-1{
     background-color: #2b3d4f ;
 }
@@ -14,14 +15,51 @@ a{
     background-color: #1abd9c;
 }
 
-/* HERO SECTION */
-.hero figure img{
-    width: 250px;
+.bg-color-3{
+    background-color:#3a556e;
 }
 
-.hero .under-title .bar{
+.bar{
     background-color: white;
     height: 4px;
     width: 150px;
 }
 
+.bar-black{
+    background-color: black;
+    height: 4px;
+    width: 100px;
+}
+
+/* HERO SECTION */
+.hero figure img{
+    width: 250px;
+}
+
+/* COL SECTION */
+.col-section img{
+    width: 100%;
+    border-radius: 3%;
+}
+
+/* ABOUT */
+.about p{
+    width: 50%;
+    padding-inline: 10px;
+}
+
+/* CONTACT */
+
+
+/****** MEDIA ******/
+@media screen and (max-width: 768px) {
+    .about p{
+        font-size: 25px;
+        margin: 20px auto;
+
+    }
+
+    .contact-us h2{
+        font-size: 45px;
+    }
+}

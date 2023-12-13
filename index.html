@@ -15,24 +15,37 @@
 </head>
 <body>
 
-    <div class="container-fluid bg-color-1">
-        <header class="container-md d-flex align-items-center justify-content-between  p-4 text-white">
-            <h3 class="text-uppercase fw-bold">start bootstrap</h3>
-            <span><i class="fa-solid fa-bars d-lg-none d-md-none d-sm-block text-secondary border rounded-3 fs-2 px-3 py-1"></i></span>
-            <ul class="d-flex gap-3 d-none d-lg-flex d-md-flex">
-                <li><a href="#" class="text-uppercase  text-white fw-bold">portfolio</a></li>
-                <li><a href="#" class="text-uppercase  text-white fw-bold">about</a></li>
-                <li><a href="#" class="text-uppercase  text-white fw-bold">contact</a></li>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">START BOOTSRAP</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
             </ul>
-        </header>
-    </div>
+          </div>
+        </div>
+      </nav>
 
 
     <main>
-        <div class="container-fluid bg-color-2">
+        <div class="container-fluid bg-color-2 py-5">
             <div class="hero container-md d-flex flex-column align-items-center py-5 text-white">
                 <figure>
-                    <img src="./assets/img/img/avatar.svg">
+                    <img src="./assets/img/avatar.svg">
                 </figure>
                 <h1 class="display-4 fw-medium pb-3 ">START BOOTSRAP</h1>
 
@@ -42,8 +55,112 @@
                     <div class="bar"></div>
                 </div>
 
-                <div class="d-flex justify-content-center py-4 fs-4">
+                <div class="d-flex justify-content-center py-5 fs-4">
                     <span>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid py-5 mb-5">
+            <div class="col-section container-md d-flex flex-column align-items-center">
+                <h1 class="display-4 fw-medium pb-3">PORTFOLIO</h1>
+                <div class="under-title d-flex align-items-center">
+                    <div class="bar-black"></div>
+                    <i class="fa-solid fa-star fs-2 px-4"></i>
+                    <div class="bar-black"></div>
+                </div>
+
+                <div class="row d-flex flex-wrap row-gap-4 pt-4">
+                    <div class="col-lg-4 col-md-6">
+                        <img src="./assets/img/cabin.png" alt="">
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <img src="./assets/img/cake.png" alt="">
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <img src="./assets/img/circus.png" alt="">
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <img src="./assets/img/game.png" alt="">
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <img src="./assets/img/safe.png" alt="">
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <img src="./assets/img/submarine.png" alt="">
+                    </div>
+                </div>    
+            </div>
+        </div>
+
+        <div class="container-fluid bg-color-2">
+            <div class="about container-md d-flex flex-column align-items-center py-4 text-white ">
+                <h1 class="display-4 fw-medium pt-5 pb-1">ABOUT</h1>
+                <div class="under-title d-flex align-items-center">
+                    <div class="bar"></div>
+                    <i class="fa-solid fa-star fs-2 px-4"></i>
+                    <div class="bar"></div>
+                </div>
+
+                <div class="d-lg-flex d-md-flex fs-4 py-5 align-items-sm-center">
+                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+
+                    <p>Wether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the èperfect starting point!</p>
+                </div>
+
+                <a href="#" class="text-white border rounded p-3">
+                    <i class="fa-solid fa-download"></i>
+                    <span>Download</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="contact-us container-sm d-flex flex-column py-5  ">
+                <h2 class="display-5  fw-medium text-center">CONTACT US</h2>
+                <div class="under-title d-flex align-items-center justify-content-center">
+                    <div class="bar-black"></div>
+                    <i class="fa-solid fa-star fs-2 px-4"></i>
+                    <div class="bar-black"></div>
+                </div>
+
+                <div class="d-flex flex-column justify-content-start py-3">
+                    <a href="#" class="text-black fs-5 border-bottom py-3">Name</a>
+                    <a href="#" class="text-black fs-5 border-bottom py-3">Email Address</a>
+                    <a href="#" class="text-black fs-5 border-bottom py-3">Phone Number</a>
+                    <a href="#" class="text-black fs-5 border-bottom pt-3 pb-5">Message</a>
+                </div>
+
+                <div>
+                    <a href="#" class=" text-white bg-color-2 mt-2 py-2 px-4 rounded">Send</a>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="container-fluid bg-color-3">
+            <div class="footer container-md d-lg-flex d-md-flex text-white py-5">
+                <div class="col-lg-4 col-md-4 pb-sm-3">
+                    <h3 class="text-center">LOCATION</h3>
+                    <p class="text-center"> 2215 John Daniel Drive Clark, MO <br> 54243</p>
+                </div>
+
+                <div class="col-lg-4 col-md-4 pb-sm-3 text-center">
+                    <h3 class="">AROUND THE WEB</h3>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-google-plus-g"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+
+                <div class="col-lg-4 col-md-4 pb-sm-3">
+                    <h3 class="text-center">ABOUT FREELANCER</h3>
+                    <p class="text-center">Freelance is a free to use, open source Bootsrap theme created by Start Bootsrap.</p>
                 </div>
             </div>
         </div>
